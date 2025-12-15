@@ -1,0 +1,16 @@
+# Add remote
+git remote add origin <url>
+
+# View remotes
+git remote -v
+
+# Push to remote
+git push origin main
+git push -u origin feature-branch  # Set upstream
+
+# Pull changes
+git pull origin main
+git pull --rebase origin main
+
+# Fetch updates
+git fetch origin
