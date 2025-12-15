@@ -1,0 +1,21 @@
+# Initialize new repository
+git init
+
+# Clone existing repository
+git clone <repository-url>
+
+# Check status
+git status
+
+# Add files to staging
+git add <file>          # Specific file
+git add .               # All files
+git add *.js           # Pattern matching
+
+# Commit changes
+git commit -m "Descriptive commit message"
+git commit -am "Add and commit in one command"
+
+# View history
+git log
+git log --oneline --graph --all
