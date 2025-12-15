@@ -1,0 +1,17 @@
+Creating and Switching
+
+# List branches
+git branch
+git branch -a          # All branches including remote
+
+# Create branch
+git branch feature-branch
+git checkout -b feature-branch  # Create and switch
+
+# Switch branches
+git checkout main
+git switch feature-branch      # Newer syntax
+
+# Delete branch
+git branch -d feature-branch   # Safe delete
+git branch -D feature-branch   # Force delete
