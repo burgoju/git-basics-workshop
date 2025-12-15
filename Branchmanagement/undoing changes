@@ -1,0 +1,15 @@
+# Undo unstaged changes
+git checkout -- <file>
+
+# Unstage file
+git reset <file>
+
+# Amend last commit
+git commit --amend -m "New message"
+
+# Reset to previous commit
+git reset --soft HEAD~1   # Keep changes staged
+git reset --hard HEAD~1   # Discard all changes (DANGEROUS)
+
+# Revert a commit
+git revert <commit-hash>
